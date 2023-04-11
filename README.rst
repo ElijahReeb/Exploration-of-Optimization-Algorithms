@@ -10,7 +10,7 @@ Homework 1
 ---------------------
 Introduction
 ^^^^^^^^^^^^
-The assignment starts with linear and polynomial optimizations to model a small dataset. These models demonstrate some of the flaws and cautions necessary when fitting data to a model and how overparameterization can lead to massive error when the training data differs from the testing data (demonstrated in parts 3 and 4). This assignment also leads to show how when using a non-linear functions there may be many minima and thus a more local minimum is necessary (part 2). 
+The assignment starts with linear and polynomial optimizations to model a small dataset. The assignment had 4 parts each used to explain a different part of the goal of the assignment. These models demonstrate some of the flaws and cautions necessary when fitting data to a model and how overparameterization can lead to massive error when the training data differs from the testing data (demonstrated in parts 3 and 4). This assignment also leads to show how when using a non-linear functions there may be many minima and thus a more local minimum is necessary (part 2). 
 
 Theoretical Backgroud
 ^^^^^^^^^^^^
