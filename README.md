@@ -36,20 +36,25 @@ As for determining the optimal parameters in a model to have the best fit, other
 
 Computational Results
 ^^^^^^^^^^^^
-Part 2 of this assignment involved taking the four parameter cosine model shown in the figure above and completing a parameter sweep of two parameters at a time while the other parameters were fixed at their local minimums. The results of these sweeps are shown below in color maps. The darker the color shows lower error meaning the large bands of dark blue represent areas where that parameter is at or close to a minimum. There are clear minima areas for A, B, and D. This is shown in the middle top graph for A. The darkest shading on the far left shows that A is at minimum on that side. This is the same cases for B and the bottom left graph and D on the bottom right graph. The other graphs are more difficult to see the minima for. This illustrates the point that the model does not require the "absolute minimum of the parameters" but still can have a strong prediction. 
+Part 2 of this assignment involved taking the four parameter cosine model shown in the figure above and completing a parameter sweep of two parameters at a time while the other parameters were fixed at their local minimums. The results of these sweeps are shown below in color maps. The darker the color shows lower error meaning the large bands of dark blue represent areas where that parameter is at or close to a minimum. There are clear minima areas for A, B, and D. This is shown in the middle top graph for A. The darkest shading on the far left shows that A is at minimum on that side. This is the same cases for B and the bottom left graph and D on the bottom right graph. The other graphs are more difficult to see the minima for. This illustrates the point that the model does not require the "absolute minimum of the parameters" but still can have a strong prediction. This also demonstrates the difficulty in finding a minimum in non-linear models. The top left graph shows many different areas of minimum leading to the importance of algorthims such as gradient descent to work towards the minima and desired level of error of a model. 
 
 .. image:: ![image](https://user-images.githubusercontent.com/130190276/231073437-a90b1201-3d3c-4d46-8e42-5a324d96edb1.png)
 
+Parts 3 and 4 of this assignment involved fitting the same data with a linear, parabolic, and a 19th order polynomial. The distinction being that in part 3 the first 20 points were sectioned as training data while the last 10 were testing data. In part 4 the first 10 and last 10 points were set as the training data with the middle as the testing data. These models are plotted below along with how the model fits to predicting the testing points. The error was also calculated and displayed below. As discussed in the conclusions, the method in part 4 created much less error when testing the model on the testing section of data. 
+
+Part 3 Graphs
 
 .. image:: ![image](https://user-images.githubusercontent.com/130190276/231073199-0c6ca76f-8e10-4a67-a7ed-7aad422b84fe.png)
 
+Part 4 Graphs
 
 .. image:: ![image](https://user-images.githubusercontent.com/130190276/231072969-d5c5552e-9017-4616-a7de-e1436ee0fea8.png)
-
 
 
 Summary and Conclusions
 ^^^^^^^^^^^^
 Comparing the graphs from part 3 and part 4 above we can observe that when the first 20 data points are selected the model creates a decent representation of those training points. The training errors for part 3 linear and parabolic fits are about 2. The 19th degree polynomial fit has a much lower training error because the parameters are designed to go through many of the points. This is similar to part 4 with there being error close to 2 for the linear and parabolic fit and much smaller error in the 19th degree polynomial. Simply put, in training the two methods have similar error when creating a model.
 However, when applied to the different testing data points, the methods in parts 3 and 4 greatly differ. Part 3 in the parabolic and 19th order had much higher error levels than the Part 4 method. This is emphasized by an error of nearly 30 billion for the 19th degree polynomial when applied to the testing data of part 3. The main reason for this difference was that the part 3 division lead towards the lacking conclusion that the data continued upwards. In a parabolic fit the optimal model "assumed" the data would decrease in the next section. In the 19th order polynomial the optimal model had so much wiggle that it completely decreased after the training data. In part 4 the model has to instead "fill in the middle" information. This leads to much less error with these select fitting methods.
+
+To sum it up, python packages allow for quick calculation of models for data. However, when determining these models one must maintain awareness for the data being used to train the model. They must also maintain awareness to not overparameratrize the data. With the difficulty in finding exact minima in certain models one must make a trade off with an allowed amount of error in order to result in ability to predict on testing data. 
 
