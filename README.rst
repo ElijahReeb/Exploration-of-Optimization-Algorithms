@@ -1,0 +1,12 @@
+# UW-EE399-Machine-Learning-Demonstrations
+This repository holds all of my coding assignments as I learn to develop machine learning algorithms from the ground floor. The repository begins with fitting simple models to data and moves towards more complex machine learning algorithims as I investigate and experiment with these during the course of a quarter at UW. Assignments were designed by Professor Nathan Kurtz. 
+
+
+.. contents:: Table of Contents
+
+Homework 1
+---------------------
+The repository begins with linear and polynomial optimizations to model a small dataset. These models demonstrate some of the flaws and cautions necessary when fitting data to a model and how overparameterization can lead to 
+
+Homework 1 Part i
+^^^^^^^^^^^^
