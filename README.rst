@@ -16,7 +16,7 @@ Theoretical Backgroud
 ^^^^^^^^^^^^
 This assignment mostly uses code functions to optimize the models. The main measure of how good a model is the least squared error. When one is determining a model it makes intuitive sense to chose a model that produces outputs close to each of the expected outputs. The first part of this assignment focused simply on that. Using a cosine function to model the data 
 
-.. image:: image.png
+.. image:: 
 
 Algorithm Implementation and Development
 ^^^^^^^^^^^^
