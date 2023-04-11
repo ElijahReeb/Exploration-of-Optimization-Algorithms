@@ -44,11 +44,11 @@ Parts 3 and 4 of this assignment involved fitting the same data with a linear, p
 
 Part 3 Graphs
 
-.. image:: (https://user-images.githubusercontent.com/130190276/231073199-0c6ca76f-8e10-4a67-a7ed-7aad422b84fe.png
+.. image:: https://user-images.githubusercontent.com/130190276/231073199-0c6ca76f-8e10-4a67-a7ed-7aad422b84fe.png
 
 Part 4 Graphs
 
-.. image:: (https://user-images.githubusercontent.com/130190276/231072969-d5c5552e-9017-4616-a7de-e1436ee0fea8.png
+.. image:: https://user-images.githubusercontent.com/130190276/231072969-d5c5552e-9017-4616-a7de-e1436ee0fea8.png
 
 
 Summary and Conclusions
