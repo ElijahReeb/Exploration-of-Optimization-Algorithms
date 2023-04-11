@@ -16,7 +16,7 @@ Theoretical Backgroud
 ^^^^^^^^^^^^
 This assignment mostly uses code functions to optimize the models. The main measure of how good a model is the least squared error. When one is determining a model it makes intuitive sense to chose a model that produces outputs close to each of the expected outputs. The first part of this assignment focused simply on that. Using a cosine function to model the data. We can observe a small error of about 1.6 and see that the model is somewhat close to the data. This goal will be applied to a few different models to demonstrate benefits to certain fits. 
 
-.. image:: ![image](https://user-images.githubusercontent.com/130190276/231070744-86b0fa3b-b7e5-4efd-a5d4-2c2c56e18f4d.png)
+.. image:: https://user-images.githubusercontent.com/130190276/231070744-86b0fa3b-b7e5-4efd-a5d4-2c2c56e18f4d.png
 
 Algorithm Implementation and Development
 ^^^^^^^^^^^^
@@ -38,17 +38,17 @@ Computational Results
 ^^^^^^^^^^^^
 Part 2 of this assignment involved taking the four parameter cosine model shown in the figure above and completing a parameter sweep of two parameters at a time while the other parameters were fixed at their local minimums. The results of these sweeps are shown below in color maps. The darker the color shows lower error meaning the large bands of dark blue represent areas where that parameter is at or close to a minimum. There are clear minima areas for A, B, and D. This is shown in the middle top graph for A. The darkest shading on the far left shows that A is at minimum on that side. This is the same cases for B and the bottom left graph and D on the bottom right graph. The other graphs are more difficult to see the minima for. This illustrates the point that the model does not require the "absolute minimum of the parameters" but still can have a strong prediction. This also demonstrates the difficulty in finding a minimum in non-linear models. The top left graph shows many different areas of minimum leading to the importance of algorthims such as gradient descent to work towards the minima and desired level of error of a model. 
 
-.. image:: ![image](https://user-images.githubusercontent.com/130190276/231073437-a90b1201-3d3c-4d46-8e42-5a324d96edb1.png)
+.. image:: https://user-images.githubusercontent.com/130190276/231073437-a90b1201-3d3c-4d46-8e42-5a324d96edb1.png
 
 Parts 3 and 4 of this assignment involved fitting the same data with a linear, parabolic, and a 19th order polynomial. The distinction being that in part 3 the first 20 points were sectioned as training data while the last 10 were testing data. In part 4 the first 10 and last 10 points were set as the training data with the middle as the testing data. These models are plotted below along with how the model fits to predicting the testing points. The error was also calculated and displayed below. As discussed in the conclusions, the method in part 4 created much less error when testing the model on the testing section of data. 
 
 Part 3 Graphs
 
-.. image:: ![image](https://user-images.githubusercontent.com/130190276/231073199-0c6ca76f-8e10-4a67-a7ed-7aad422b84fe.png)
+.. image:: (https://user-images.githubusercontent.com/130190276/231073199-0c6ca76f-8e10-4a67-a7ed-7aad422b84fe.png
 
 Part 4 Graphs
 
-.. image:: ![image](https://user-images.githubusercontent.com/130190276/231072969-d5c5552e-9017-4616-a7de-e1436ee0fea8.png)
+.. image:: (https://user-images.githubusercontent.com/130190276/231072969-d5c5552e-9017-4616-a7de-e1436ee0fea8.png
 
 
 Summary and Conclusions
