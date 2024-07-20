@@ -1,8 +1,8 @@
-UW-EE399-Assignment 1
+Exploration of Optimization Algorithms
 =========
 This repository holds all of my coding assignments as I learn to develop machine learning algorithms from the ground floor. The repository begins with fitting simple models to data and moves towards more complex machine learning algorithims as I investigate and experiment with these during the course of a quarter at UW. Assignments were designed by Professor Nathan Kurtz. 
 
-Project Author: Elijah Reeb, elireeb@uw.edu
+Project Author: Elijah Reeb, elijahreeb@outlook.com
 
 .. contents:: Table of Contents
 
